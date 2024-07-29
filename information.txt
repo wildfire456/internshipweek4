@@ -1,0 +1,56 @@
+For my final week internship project at BitBuild, I have created a 2D endless runner space game, utilizing most of what SFML has to offer.
+From the very start, my aspiration was to create something with replayability, and what better way than to create and endless 
+arcade game which keeps track of the top 3 highscores?
+The game is packed with gamechanging, yet random events such as asteroids, random enemy formations, random asteroid projectile spawn 
+coordinates, 4 different powerups, and a boss-like enemy that puts the player on the edge.
+
+Key Features:
+
+1) Increasing difficulty as the game progresses:
+ . The projectiles fired by the enemy battleships vary in color.
+ . Red enemy laser in level 1: Slow rate of fire and slow projectile travel.
+ . Yellow enemy laser in level 2: Faster rate of fire and faster projectile travel.
+ . Purple enemy laser in level 3 onwards: Fastest rate of fire and fastest projectile travel.
+ . 1/3 Chance for Boss/Monster spawn after each 25 seconds stage 2 onwards. 
+ . Additionally, the enemy formations become more and more intricate as the game progresses.
+ 
+2) Utilization of classes and inheritance:
+ . Classes used to divide each segment of the game. (enemies, formations, powerups, asteroids, boss, player, etc)
+ . Inheritance used in several occasions. (player-> bullet, enemy-> bomb, enemy -> formation, monster -> enemy, etc)
+ 
+3) File handling:
+ . Keeps track of the top 3 highscores and updates them perfectly when needed.
+ 
+4) Sprites and animations:
+ . sprites used for almost everything. (backdrop, playership, monster, menus, powerups, asteroid etc)
+ . Animations created for several instances (Moving background, Player explode etc)
+ 
+5) Power ups (4 types):
+ . Heart (grants life)
+ . Blue bolt (temporal invulnerability and fire penetrating blue bolts which do not stop on enemy contact)
+ . Time capsule (Everything occurs in slow motion for an alotted time, making the game very easy temporarily)
+ . Scattershot (3 scattershots provided to the player. Player laser is divided into multiple projectiles, each dispersed and launched at 
+   a different angle)
+ 
+6) Asteroids (Frequent obstacles):
+ . Random spawn (Left or right and random y coordinates within the players general area) 
+ 
+7) Different enemy types (Variation of enemy difficulty):
+ . 3 types of invaders/enemy ships that fire lasers after different fixed intervals.
+
+8) Boss/Monster:
+ . Random spawn (1/3 chance to spawn each 25 seconds level 2 onwards)
+ . Temporary presence (Player must survive a limited amount of time where the monster launches its signature "hellfire" after short, fixed
+  intervals) 
+  
+9) Easy-to-navigate menus:
+ . Main menu
+ . Pause menu
+ . game over menu
+ 
+ 
+ It is a pleasure to have been a part of BitBuild's internship program. Throughout my journey, I have gotten significantly better with
+ the SFML library, and taken a small step towards my ambition of becoming a professional programmer. I would like to thank BitBuild for 
+providing such an opportunity, and I hope taking steps like these would one day plant my foot firmly on the plateu of success.
+ 
+ Created by Aman Asif. I will shortly upload footage of gameplay on my linkedin. Thanks for reading.
